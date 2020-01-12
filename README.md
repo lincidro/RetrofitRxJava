@@ -1,5 +1,7 @@
 # RetrofitRxJava
 
+-----------------------------
+
 FIRST COMMIT
 
 PROJECT SETUP
@@ -27,3 +29,18 @@ RECYCLERVIEW ADAPTER
 	Crear variable tipo List(Lista a mostrar de usuarios) e inicializar en el constructor(Crear constructror)
 	CustomAdapter, heredar de RecyclerView.Adapter<CustomAdapter.MyViewHolder>
 	Completar onCreateViewHolder, onBindViewHolder, getItemCount
+
+-----------------------------
+SECOND COMMIT
+
+RETROFIT
+	RetrofitAdapter
+	UserService
+	NetworkingUtils - retorna una instancia singleton de userService
+
+CREAR CLASE PARA REALIZAR LAS LLAMADAS
+	Antes crear una clase Callback
+	Ahora crear la clase utils/UserTask
+
+
+
