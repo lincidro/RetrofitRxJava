@@ -42,5 +42,14 @@ CREAR CLASE PARA REALIZAR LAS LLAMADAS
 	Antes crear una clase Callback
 	Ahora crear la clase utils/UserTask
 
+-----------------------------
+THIRD COMMIT
+	Pasar el resultado del presenter a la vista y configurar el adapter para el recyclerview
+	Actualizar UserPresenter, el metodo loadData se obtendrá la lista o error
+	En el activity, en showData instanciar el adapter y setearlo al recyclerview
+	Correciones generales
+
+
+
 
 
